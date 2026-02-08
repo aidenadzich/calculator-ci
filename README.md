@@ -142,4 +142,4 @@ In this project, I use uv an my package manager. uv is a quick and easy Python p
 - It prevents the issue of "well it worked on my machine" by making sure that the environment is being kept clean.
 
 ## Code Coverage
-My code coverage currently sits around **57%**, as I am just testing the logic of the program, and not the main loop.
+My code coverage currently sits around **100%**, as I added skips to my calculator.py to ensure that the main loop is skipped during testing. Without these skips, it sits at **57%**.
