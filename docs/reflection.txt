@@ -1,0 +1,4 @@
+The CI/CD pipeline acts as a safety net by automatically catching bugs on every push before they reach the production environment. Without it, we would need to rely on manual testing, which is both slower and prone to human error.
+We ran tests and linting in parallel to save time. By having both tasks execute simultaneously, we were able to check the code as it was being tested, cutting down the wait time for results.
+100% code coverage ensures that every bit of logic in our code is being verified and tested during the build. This is enforced using the --cov-fail-under flag, which will automatically fail the test if the code coverage drops below the given threshold.
+For a team of developers, this setup would ensure that one persons broken or messy code won't interfere with the work of the rest of the team.
