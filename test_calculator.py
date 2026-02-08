@@ -27,3 +27,7 @@ class TestCalculator:
         assert self.calc.divide(-10, 2) == -5
         with pytest.raises(ValueError):
             self.calc.divide(10, 0)
+            
+    def test_divide_by_zero(self):
+        with pytest.raises(ValueError):
+            self.calc.divide(10, 0)
