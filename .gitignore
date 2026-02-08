@@ -5,6 +5,17 @@ build/
 dist/
 wheels/
 *.egg-info
+.coverage
+.pytest_cache/
 
 # Virtual environments
-.venv
+.venv/
+venv/
+env/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
