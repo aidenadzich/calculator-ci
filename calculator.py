@@ -12,6 +12,9 @@ class Calculator:
         if b == 0:
             raise ValueError("Cannot divide by zero")
         return a / b
+    
+    def power(self, a, b):
+        return a ** b
 
 def main(): # pragma: no cover
     calc = Calculator()
@@ -22,6 +25,7 @@ def main(): # pragma: no cover
     print("Subtraction:", calc.subtract(10, 4))
     print("Multiplication:", calc.multiply(6, 7))
     print("Division:", calc.divide(20, 4))
+    print("Power:", calc.power(2, 3))
     print("=" * 60)
     
 if __name__ == "__main__": # pragma: no cover
