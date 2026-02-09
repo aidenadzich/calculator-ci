@@ -22,7 +22,7 @@ uv run calculator.py
 
 ## CI/CD Pipeline
 
-```toml
+```yaml
 name: CI/CD Pipeline
 
 on:
