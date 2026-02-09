@@ -125,13 +125,13 @@ jobs:
 ```
 
 ## Project Structure
-calculator-ci
-├── [calculator.py](calculator.py) - Main program logic
-├── [test_calculator.py](test_calculator.py) - Main program test file
-├── [README.md](README.md) - Project information
-├── [.python-version](.python-version) - Python version for use with uv
-├── [requirements.txt](requirements.txt) - Dependencies for use with pip
-└── [pyproject.toml](pyproject.toml) - Project file for use with uv
+calculator-ci\
+├── [calculator.py](calculator.py) - Main program logic\
+├── [test_calculator.py](test_calculator.py) - Main program test file\
+├── [README.md](README.md) - Project information\
+├── [.python-version](.python-version) - Python version for use with uv\
+├── [requirements.txt](requirements.txt) - Dependencies for use with pip\
+└── [pyproject.toml](pyproject.toml) - Project file for use with uv\
 
 ## Why uv and virtual enviroments
 In this project, I use uv an my package manager. uv is a quick and easy Python package installer designed to be a replacement for pip.
